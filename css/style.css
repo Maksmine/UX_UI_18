@@ -2,6 +2,7 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 17px;  
     color:#1E1443;
+    background-image: linear-gradient( #1C1541 #A461C3 #FFFFFF);
 }
 
 body, ul {
@@ -18,11 +19,18 @@ img {
 }
 
 nav {
-    background-color: #0E091D;
+    background-color: #1C1541;
     color: white;
     position: fixed;
     z-index: 1;
     width: 100%;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+nav a:hover {
+    color: violet;
 }
 
 nav ul li {
